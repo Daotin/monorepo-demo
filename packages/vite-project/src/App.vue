@@ -1,6 +1,6 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import { Hello } from 'dt-components'
+import HelloWorld from "./components/HelloWorld.vue";
+import { Hello } from "dt-components";
 </script>
 
 <template>
@@ -14,8 +14,6 @@ import { Hello } from 'dt-components'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-
-  <el-button type="primary">按钮</el-button>
 </template>
 
 <style scoped>

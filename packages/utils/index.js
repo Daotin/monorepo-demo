@@ -1,3 +1,3 @@
 export function myUtilFunction() {
-  console.log('myUtilFunction')
+  console.log("myUtilFunction1");
 }
