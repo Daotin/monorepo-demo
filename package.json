@@ -1,0 +1,22 @@
+{
+  "name": "dt-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter vite-project run dev",
+    "dev2": "pnpm --filter vite-project2 run dev",
+    "build": "pnpm --filter vite-project run build",
+    "build2": "pnpm --filter vite-project2 run build",
+    "build:all": "pnpm -r run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
+}
